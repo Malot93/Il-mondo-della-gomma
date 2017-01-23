@@ -1,0 +1,301 @@
+body {
+    margin: auto;
+    background-color:#8e8a8a;
+    color: #040707;
+    font-family: "verdana", sans-serif;
+}
+
+a:visited {
+    color: #0000EE;
+}
+
+.bottone {
+    color:#d8d2d2;
+    background-color:#4c4a4a;
+    font-size:20px;
+    position:absolute;
+    right:30px;
+    bottom:30px;
+    border-color: #1c2f2f;
+    margin: 0;
+}
+
+.bottone:hover {
+    background-color: #666060;
+}
+
+.ricerca {
+    font-size: 20px;
+    border-color: #1c2f2f;
+}
+
+.nomepneumatico {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+}
+
+.specifichetec {
+    position: absolute;
+    top: 40px;
+    left: 275px;
+}
+
+.prezzosing {
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    
+}
+
+#navbar {
+    margin: 0 0 0 0;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 2%;
+    background-color: #eae3e3;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 9px #0e1717;
+    font-size: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #1c2f2f;
+    padding: auto;
+    z-index: 1;
+}
+
+#navbar h3 {
+    display: block;
+    background-image: url(tel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    padding-left: 35px;
+}
+
+#centrale {
+    position: relative;
+    margin: auto;
+    top: 150px;
+    width:400px;
+    height:250px;
+    background: #eae3e3;
+    border: 1px solid #1c2f2f;
+    border-radius: 10px;
+    box-shadow: 0 0px 9px #0e1717;
+    padding: 50px;
+}
+
+#centrale input[type="text"] {
+    font-size: 20px;
+    border: 1px solid #1c2f2f;
+}
+
+#centrale input[type="password"] {
+    font-size: 20px;
+    border: 1px solid #1c2f2f;
+}
+
+#container2{
+	color: #8e8a8a;
+}
+#container {
+    position: relative;
+    margin: auto;
+    top: 20px;
+    height:100%;
+    padding: 50px;
+    color: #8e8a8a;
+}
+
+#container h2 {
+	color: #040707;
+}
+
+#acquisto {
+	position: relative;
+	background-color: #B1B1B1;
+	margin: auto;
+	top: 100px;
+	padding: 50px;
+	padding-top: 0px;
+	width: 1100px;
+	border: 1px solid #1c2f2f;
+	box-shadow: 0 0px 9px #0e1717;
+    margin-bottom: 20px;
+    height: 700px;
+}
+
+#ordine {
+	background-color: #B1B1B1;
+	margin: auto;
+	padding: 20px;
+	padding-top: 20px;
+	width: 1000px;
+}
+
+.risultato {
+    position: relative;
+    margin: auto;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 1000px;
+    background: #eae3e3;
+    border: 1px solid #1c2f2f;
+    border-radius: 10px;
+    box-shadow: 0 0px 9px #0e1717;
+    padding: 20px;
+    color: #040707;
+}
+
+#det_nome {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+#prezzo_s {
+    position:absolute;
+    right: 220px;
+    bottom: 0px;
+}
+
+#prezzo_t {
+    position:absolute;
+    right: 30px;
+    bottom: 0px;
+}
+
+#prezzo_o {
+    position:absolute;
+    right: 30px;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+#acquirente {
+    position: absolute;
+    width: 550px;
+    padding: 0 30px;
+    left: 100px;
+}
+
+#acquirente input {
+    font-size: 20px;
+    border: 1px solid #1c2f2f;
+}
+
+#metodo {
+    position: absolute;
+    width: 340px;
+    right: 100px;
+    
+}
+
+#gestionale {
+    width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#aggiungi {
+    position:relative;
+    bottom: 45px;
+    left: 910px;
+}
+
+#inventario {
+    position:relative;
+    padding-bottom: 0px;
+    bottom: 30px;
+    width: 1100px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 2px solid #1c2f2f;
+}
+
+#ordini {
+    position: relative;
+    bottom: 10px;
+    width: 1100px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border: 2px solid #1c2f2f;
+    margin-bottom: 50px;
+}
+
+.item {
+    height: 100px;
+    margin: 0px;
+    border-bottom: 1px solid #757575;
+    background-color: #b2b2b2;
+    padding: 5px;
+    color: #040707;
+}
+
+.item:nth-child(even) {
+    background-color: #999999;
+}
+
+.itempic {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.itemtitolo {
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+    font-weight: bold;
+}
+
+.itemdescr {
+    position: relative;
+    bottom: 70px;
+    left: 140px;
+    font-weight: bold;
+}
+
+.mod-eli {
+    position: relative;
+    width: 130px;
+    bottom: 105px;
+    left: 920px;
+}
+
+.ordernome {
+    position: relative;
+    top: 20px;
+    left: 15px;
+    font-weight: bold;
+}
+
+.orderarticolo {
+    position: relative;
+    top: 30px;
+    left: 15px;
+    font-weight: bold;
+}
+
+.orderid {
+    position: relative;
+    left: 820px;
+    bottom: 20px;
+    text-align: right;
+}
+
+.orderdett {
+    position: relative;
+    left: 930px;
+    text-align: right;
+}
